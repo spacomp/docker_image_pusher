@@ -1,10 +1,10 @@
 nginx
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
---platform=aarch64_cortex-a53 xhofe/alist:latest
+--platform=aarch64 xhofe/alist:latest
 #支持指定架构
---platform=aarch64_cortex-a53 xiaoyaliu/alist
---platform=aarch64_cortex-a53 linuxserver/wireguard
---platform=aarch64_cortex-a53 kylemanna/openvpn
---platform=aarch64_cortex-a53 moelin/1panel:latest
---platform=aarch64_cortex-a53 ubuntu:latest
+--platform=aarch64 xiaoyaliu/alist
+--platform=aarch64 linuxserver/wireguard
+--platform=aarch64 kylemanna/openvpn
+--platform=aarch64 moelin/1panel:latest
+--platform=aarch64 ubuntu:latest
